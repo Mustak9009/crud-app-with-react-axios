@@ -1,0 +1,89 @@
+/*                                     -:Contact manager(style):-          20/11/2021         */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*              [+]Contact manager main div & container style :-               */
+  .ContactManagerManiDiv {
+    width: 30%;
+    margin: auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .ContactManagerManiDiv div {
+    display: flex;
+    justify-content: space-between;
+  }
+  /*        [+]Contact manager text and icons style :-              */
+  .ContactManagerManiDiv h2 {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+  }
+  .ContactManagerManiDiv div {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+  }
+  .heading_text_navigation_link {
+    background-color: rgb(19, 152, 241);
+    padding: 0.5rem;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 3px solid white;
+    text-decoration: none;
+  }
+  .heading_text_navigation_link:hover {
+    border: 3px solid lightblue;
+  }
+  /*                 [+]Contact manager user's style :-           */
+  /* Main container */
+  .ContactManager_users {
+    background-color: rgba(117, 100, 100, 0.116);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+  }
+  /* Left side */
+  .ContactManger_left_side div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ContactManger_left_side div h4 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    width: 100%;
+  }
+  .ContactManger_left_side div h4:last-child {
+    opacity: 0.6;
+    font-size: 15px;
+  }
+  .fa-user-circle {
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  /*Right side*/
+  .ContactManger_right_side {
+    width: 12%;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .fa-pencil-square-o{
+    color: rgb(106, 106, 238) !important;
+  }
+  .ContactManger_right_side i:last-child {
+    color: red;
+  
+  }
+  
+  

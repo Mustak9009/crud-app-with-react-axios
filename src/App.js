@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react';
+//Import -> component
+import ContactPage from './Components/ContactPageMain';
+//Import -> React-router-dom for routing
+import { Routes, Route } from 'react-router-dom';
+import AddContact from './Components/SubComponents/AddContact';
+import EditContact from './Components/EditContact';
+export default function App() {
+    return (
+        <>
+            <Routes>
+                <Route exact path="/" element={<ContactPage/>} />
+                <Route path="/addContact" element={<AddContact/>} />
+                <Route path="/editContact" element={<EditContact/>} />
+            </Routes>
+        </>
+    )
 }
-
-export default App;
