@@ -1,3 +1,9 @@
+#Before start React app -> please install this libraries ..
+  1)react-router-dom
+  2)json-server
+  3)axios
+                    ...😁😁
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
