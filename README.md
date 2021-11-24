@@ -3,6 +3,10 @@
   2)json-server
   3)axios
                     ...😁😁
+                    
+ Error => ['react-scripts' is not recognized as an internal or external command, operable program or batch file]
+               ->solution [https://stackoverflow.com/questions/48942639/react-scripts-is-not-recognized-as-an-internal-or-external-command-operable-p]
+                      ->check this url
 
 # Getting Started with Create React App
 
